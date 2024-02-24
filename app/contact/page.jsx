@@ -4,6 +4,7 @@ const page = () => {
   return (
     <div>
       i am contact page 
+      this is a file based routing 
     </div>
   )
 }
