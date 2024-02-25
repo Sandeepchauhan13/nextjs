@@ -1,4 +1,5 @@
 // "use client"
+// by default a component is a server component 
 // import {useState, useEffect} from "react";
 import fs from "fs/promises"
 import Navbar from "@/components/Navbar"
@@ -12,7 +13,7 @@ export default function Home (){
   return(
     <div>
       <Navbar/>
-      I am  a component
+      I am   component
        {/* {count} */}
     {/* <button onClick={()=>setCount(count + 1)} className="bg-red-400 text-white rounded">click me </button> */}
     </div>
