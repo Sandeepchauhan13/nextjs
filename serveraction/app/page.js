@@ -1,4 +1,5 @@
 // import Image from "next/image";
+// #form main koi data hai or vo data server main chale jaye pehle ye kam api ke through krna padta tha 
 'use client'
 import { submitAction } from "@/actions/form";
 import {useRef}  from "react";
@@ -21,6 +22,7 @@ export default function Home() {
         <input name="name" id="name" className="text-black mx-4" type="text" />
       </div>
       <div>
+      <label htmlFor="name">Address</label>
         <input name="add" id="add" className="text-black mx-4" type="text" />
       </div>
       <button className="border border-white">Submit</button>
